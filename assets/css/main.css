@@ -1,0 +1,199 @@
+/* line 2, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* line 7, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+body {
+  line-height: 1rem; }
+
+/* line 10, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+.wrapper, #wrapper {
+  width: 100%; }
+
+/* line 13, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 17, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+nav ul {
+  list-style: none; }
+
+/* line 20, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+blockquote, q {
+  quotes: none; }
+
+/* line 23, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 27, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 35, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* line 40, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: 700; }
+
+/* line 46, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+del {
+  text-decoration: line-through; }
+
+/* line 49, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+/* line 53, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 57, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+input select {
+  vertical-align: middle; }
+
+/* line 59, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/reset.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+  padding: 0; }
+
+/* line 4, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
+.padding {
+  padding-left: 15%;
+  padding-right: 15%; }
+
+/* line 8, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
+.margins {
+  margin-left: 33%;
+  margin-right: 33%; }
+
+/* line 11, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
+.marginssmall, #form {
+  margin-left: 15%;
+  margin-right: 15%; }
+
+/* line 14, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
+.center {
+  justify-content: center;
+  align-content: center; }
+
+/* line 4, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.data-content-center {
+  display: flex;
+  width: 100%;
+  height: 100vh; }
+
+/* line 9, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+#main-box {
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.13), 1px 2px 4px 0 rgba(0, 0, 0, 0.08), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  height: 35vh;
+  width: 20vw;
+  margin: auto; }
+
+/* line 15, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+#form {
+  width: 100%;
+  margin-top: 10%; }
+
+/* line 21, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.line1 {
+  width: 14.5vw;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 36px; }
+
+/* line 28, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.line1-1 {
+  width: 0vw;
+  height: 2px;
+  background-color: blue;
+  position: relative;
+  top: -2px;
+  transition: width 0.3s linear; }
+
+/* line 36, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.line2-2 {
+  width: 0vw;
+  height: 2px;
+  background-color: blue;
+  position: relative;
+  top: -4px;
+  transition: width 0.3s linear; }
+
+/* line 45, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+input:hover ~ .line1-1 {
+  width: 14.5vw; }
+
+/* line 48, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+input:hover ~ .line2-2 {
+  width: 14.5vw; }
+
+/* line 51, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.line2 {
+  width: 14.5vw;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 34px; }
+
+/* line 59, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+form p {
+  width: 72%;
+  padding-left: 5px;
+  height: 4vh;
+  line-height: 4.5vh;
+  color: #C9C8C8;
+  font-weight: 400;
+  font-family: sans-serif;
+  position: relative;
+  top: -57px;
+  left: 0px;
+  transition: top 0.3s linear; }
+/* line 72, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+form input {
+  width: 72%;
+  height: 4vh;
+  border: none;
+  outline: none; }
+
+/* line 77, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+input:hover ~ .email {
+  top: -64px;
+  color: blue; }
+
+/* line 80, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+input:hover ~ .password {
+  top: -64px;
+  color: blue; }
+
+/* line 84, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.smt-btn:hover {
+  background-color: #E20404; }
+
+/* line 87, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
+.smt-btn {
+  color: white;
+  background-color: red;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.13), 1px 2px 4px 0 rgba(0, 0, 0, 0.08), 0 0 4px 0 rgba(0, 0, 0, 0.12); }

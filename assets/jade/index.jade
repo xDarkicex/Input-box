@@ -3,5 +3,24 @@ doctype
 html(lang="en-us")
 	include head.jade
 	body
-		div(id="main-box")
+		div(id="wrapper")
+			div(class="data-content-center")
+				section(id="main-box")
+					figure(id="form")
+						form(action="#")
+							
+							div(class="line1")
+							
+							input(type="text", name="username", value="")
+							div(class="line1-1")
+							p(class="email") Email 
+							
+							div(class="line2")
+							
+							input(type="text", name="password", value="")
+							div(class="line2-2")
+							p(class="password") Password
+							br
+							br
+							input(class="smt-btn", type="submit", value="SIGN IN")
 
