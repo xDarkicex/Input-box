@@ -139,7 +139,9 @@ hr {
   top: -4px;
   height: 2px;
   display: -webkit-flex;
-  justify-content: center; }
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /* line 42, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .contain-line2-2 {
@@ -148,7 +150,9 @@ hr {
   top: -6px;
   height: 2px;
   display: -webkit-flex;
-  justify-content: center; }
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /* line 51, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .line1-1 {
