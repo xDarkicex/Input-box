@@ -136,7 +136,7 @@ hr {
 .contain-line1-1 {
   width: 14.5vw;
   position: relative;
-  top: -6px;
+  top: -4px;
   height: 2px;
   display: flex;
   justify-content: center; }
@@ -145,7 +145,7 @@ hr {
 .contain-line2-2 {
   width: 14.5vw;
   position: relative;
-  top: -8px;
+  top: -6px;
   height: 2px;
   display: flex;
   justify-content: center; }
