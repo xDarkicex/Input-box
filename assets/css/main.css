@@ -179,26 +179,28 @@ form input {
   outline: none; }
 /* line 77, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 form input[type="text"] {
-  font-size: 18px; }
-/* line 79, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  font-size: 18px;
+  color: #C9C8C8; }
+/* line 80, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 form input[type="password"] {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #C9C8C8; }
 
-/* line 81, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+/* line 83, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 input:hover ~ .email {
   top: -64px;
   color: blue; }
 
-/* line 84, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+/* line 86, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 input:hover ~ .password {
   top: -64px;
   color: blue; }
 
-/* line 88, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+/* line 90, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .smt-btn:hover {
   background-color: #E20404; }
 
-/* line 91, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+/* line 93, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .smt-btn {
   color: white;
   background-color: red;
