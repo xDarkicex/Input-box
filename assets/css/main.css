@@ -143,11 +143,11 @@ hr {
   transition: width 0.3s linear; }
 
 /* line 45, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
-input:hover ~ .line1-1 {
+.inh1:hover ~ .contain-line1-1 > .line1-1 {
   width: 14.5vw; }
 
 /* line 48, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
-input:hover ~ .line2-2 {
+.inh2:hover ~ .contain-line2-2 > .line2-2 {
   width: 14.5vw; }
 
 /* line 51, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
@@ -187,12 +187,12 @@ form input[type="password"] {
   color: #C9C8C8; }
 
 /* line 83, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
-input:hover ~ .email {
+.inh1:hover ~ .email {
   top: -64px;
   color: blue; }
 
 /* line 86, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
-input:hover ~ .password {
+.inh2:hover ~ .password {
   top: -64px;
   color: blue; }
 
