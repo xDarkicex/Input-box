@@ -226,29 +226,47 @@ form input[type="password"] {
   /* line 112, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   #main-box {
     width: 70vw;
-    height: 70vh; }
+    height: 46vh; }
 
   /* line 116, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  #form {
+    margin-top: 32%; }
+    /* line 118, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+    #form p {
+      top: -65px; }
+
+  /* line 120, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .inh1:hover ~ .email {
+    top: -75px;
+    color: blue; }
+
+  /* line 124, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .inh2:hover ~ .password {
+    top: -75px;
+    color: blue; }
+
+  /* line 128, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .contain-line1-1 {
     width: 50vw; }
 
-  /* line 119, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  /* line 131, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .line1 {
-    width: 50vw; }
+    width: 50vw;
+    top: 37px; }
 
-  /* line 122, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  /* line 135, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .inh1:hover ~ .contain-line1-1 > .line1-1 {
     width: 50vw; }
 
-  /* line 125, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  /* line 138, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .contain-line2-2 {
     width: 50vw; }
 
-  /* line 127, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  /* line 141, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .line2 {
     width: 50vw; }
 
-  /* line 129, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  /* line 144, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .inh2:hover ~ .contain-line2-2 > .line2-2 {
     width: 50vw; }
  }
