@@ -226,5 +226,29 @@ form input[type="password"] {
   /* line 112, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   #main-box {
     width: 70vw; }
+
+  /* line 115, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .contain-line1-1 {
+    width: 50vw; }
+
+  /* line 118, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .line1 {
+    width: 50vw; }
+
+  /* line 121, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .inh1:hover ~ .contain-line1-1 > .line1-1 {
+    width: 50vw; }
+
+  /* line 124, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .contain-line2-2 {
+    width: 50vw; }
+
+  /* line 126, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .line2 {
+    width: 50vw; }
+
+  /* line 128, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+  .inh2:hover ~ .contain-line2-2 > .line2-2 {
+    width: 50vw; }
  }
 /*# sourceMappingURL=main.css.map */
