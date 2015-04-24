@@ -26,35 +26,48 @@
 	position:relative
 	top:36px
 
-.line1-1
-	width:0vw
-	height:2px
-	background-color:blue
-	position:relative
-	top:-6px
-	transition: width .3s linear
-
-.line2-2
-	width:0vw
-	height:2px
-	background-color:blue
-	position:relative
-	top:-8px
-	transition: width .3s linear
-
-
-.inh1:hover ~ .contain-line1-1 > .line1-1
-	width:14.5vw
-
-.inh2:hover ~  .contain-line2-2 > .line2-2
-	width:14.5vw
-
 .line2
 	width:14.5vw
 	height:1px
 	background-color:rgba(0,0,0,0.3)
 	position:relative
 	top:34px
+
+.contain-line1-1
+	width:14.5vw
+	position:relative
+	top:-6px
+	height:2px
+	display:$f
+	justify-content: center;
+.contain-line2-2
+	width:14.5vw
+	position:relative
+	top:-8px
+	height:2px
+	display:$f
+	justify-content: center;
+
+
+.line1-1
+	width:0vw
+	background-color:blue
+	transition: width .2s linear
+
+.line2-2
+	width:0vw
+	background-color:blue
+	transition: width .2s linear
+
+
+.inh1:hover ~ .contain-line1-1 > .line1-1
+	width:14.5vw
+
+
+.inh2:hover ~  .contain-line2-2 > .line2-2
+	width:14.5vw
+
+
 form
 	
 	p
@@ -66,9 +79,9 @@ form
 		font-weight: 400
 		font-family: sans-serif
 		position: relative
-		top:-57px
+		top:-61px
 		left:0px
-		transition: top .3s linear
+		transition: top .2s linear
 
 	input
 		width: 72%
