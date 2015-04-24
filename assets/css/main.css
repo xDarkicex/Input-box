@@ -1,35 +1,27 @@
-/* line 2, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
-/* line 7, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 body {
   line-height: 1rem; }
 
-/* line 10, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 .wrapper, #wrapper {
   width: 100%; }
 
-/* line 13, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 17, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 nav ul {
   list-style: none; }
 
-/* line 20, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 blockquote, q {
   quotes: none; }
 
-/* line 23, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+  content: "";
   content: none; }
 
-/* line 27, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 a {
   margin: 0;
   padding: 0;
@@ -38,38 +30,31 @@ a {
   vertical-align: baseline;
   background: transparent; }
 
-/* line 35, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none; }
 
-/* line 40, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 mark {
   background-color: #ff9;
   color: #000;
   font-style: italic;
   font-weight: 700; }
 
-/* line 46, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 del {
   text-decoration: line-through; }
 
-/* line 49, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help; }
 
-/* line 53, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 57, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 input select {
   vertical-align: middle; }
 
-/* line 59, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/reset.sass */
 hr {
   display: block;
   height: 1px;
@@ -78,45 +63,37 @@ hr {
   margin: 1rem 0;
   padding: 0; }
 
-/* line 4, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
 .padding {
   padding-left: 15%;
   padding-right: 15%; }
 
-/* line 8, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
 .margins {
   margin-left: 33%;
   margin-right: 33%; }
 
-/* line 11, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
 .marginssmall, #form {
   margin-left: 15%;
   margin-right: 15%; }
 
-/* line 14, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/commonvar.sass */
 .center {
-  justify-content: center;
-  align-content: center; }
+  -webkit-justify-content: center;
+  -webkit-align-content: center; }
 
-/* line 4, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .data-content-center {
-  display: flex;
+  display: -webkit-flex;
   width: 100%;
   height: 100vh; }
 
-/* line 9, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 #main-box {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.13), 1px 2px 4px 0 rgba(0, 0, 0, 0.08), 0 0 4px 0 rgba(0, 0, 0, 0.12);
   height: 35vh;
   width: 20vw;
   margin: auto; }
 
-/* line 15, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 #form {
   width: 100%;
   margin-top: 10%; }
 
-/* line 21, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .line1 {
   width: 14.5vw;
   height: 1px;
@@ -124,7 +101,6 @@ hr {
   position: relative;
   top: 36px; }
 
-/* line 28, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .line2 {
   width: 14.5vw;
   height: 1px;
@@ -132,45 +108,38 @@ hr {
   position: relative;
   top: 34px; }
 
-/* line 35, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .contain-line1-1 {
-  width: 14.5vw;
-  position: relative;
-  top: -4px;
-  height: 2px;
-  display: flex;
-  justify-content: center; }
-
-/* line 42, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
-.contain-line2-2 {
   width: 14.5vw;
   position: relative;
   top: -6px;
   height: 2px;
-  display: flex;
+  display: -webkit-flex;
   justify-content: center; }
 
-/* line 51, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
+.contain-line2-2 {
+  width: 14.5vw;
+  position: relative;
+  top: -8px;
+  height: 2px;
+  display: -webkit-flex;
+  justify-content: center; }
+
 .line1-1 {
   width: 0vw;
   background-color: blue;
   transition: width 0.2s linear; }
 
-/* line 56, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .line2-2 {
   width: 0vw;
   background-color: blue;
   transition: width 0.2s linear; }
 
-/* line 62, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .inh1:hover ~ .contain-line1-1 > .line1-1 {
   width: 14.5vw; }
 
-/* line 66, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .inh2:hover ~ .contain-line2-2 > .line2-2 {
   width: 14.5vw; }
 
-/* line 72, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 form p {
   width: 72%;
   padding-left: 5px;
@@ -183,37 +152,31 @@ form p {
   top: -61px;
   left: 0px;
   transition: top 0.2s linear; }
-/* line 85, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 form input {
   width: 72%;
   height: 4vh;
   border: none;
   outline: none; }
-/* line 90, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 form input[type="text"] {
   font-size: 18px;
   color: #C9C8C8; }
-/* line 93, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 form input[type="password"] {
   font-size: 18px;
   color: #C9C8C8; }
 
-/* line 96, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .inh1:hover ~ .email {
   top: -64px;
   color: blue; }
 
-/* line 99, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .inh2:hover ~ .password {
   top: -64px;
   color: blue; }
 
-/* line 103, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .smt-btn:hover {
   background-color: #E20404; }
 
-/* line 106, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
 .smt-btn {
-  color: white;
   background-color: red;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.13), 1px 2px 4px 0 rgba(0, 0, 0, 0.08), 0 0 4px 0 rgba(0, 0, 0, 0.12); }
+
+/*# sourceMappingURL=main.css.map */
