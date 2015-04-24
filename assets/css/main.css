@@ -130,7 +130,7 @@ hr {
   height: 2px;
   background-color: blue;
   position: relative;
-  top: -2px;
+  top: -4px;
   transition: width 0.3s linear; }
 
 /* line 36, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
@@ -139,7 +139,7 @@ hr {
   height: 2px;
   background-color: blue;
   position: relative;
-  top: -4px;
+  top: -6px;
   transition: width 0.3s linear; }
 
 /* line 45, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
