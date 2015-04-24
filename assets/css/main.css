@@ -226,7 +226,7 @@ form input[type="password"] {
   /* line 112, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   #main-box {
     width: 70vw;
-    width: 70vh; }
+    height: 70vh; }
 
   /* line 116, C:/Users/marvinr.EASYCARE/Documents/GitHub/Input-box/assets/sass/main.sass */
   .contain-line1-1 {
