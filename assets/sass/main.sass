@@ -11,42 +11,43 @@
     box-shadow: $box
     height: 35vh
     width: 20vw
-    margin: auto
+    position:relative
+    top:0
+    bottom:0
+    margin-top: auto
+    margin-bottom: auto
+    left:0
+    right:0
+    margin-left:auto
+    margin-right: auto
 
 #form
     width: 100%
-    @extend .marginssmall
-    margin-top: 10%
+    padding-left:15%
+    margin-top: 15%
 
 
 .line1
     width: 14.5vw
-    height: 1px
+    height: 0.1vh
     background-color: rgba(0,0,0,0.3)
     position: relative
-    top: 36px
+    top:36px
 
 .line2
-    width: 14.5vw
-    height: 1px
-    background-color: rgba(0,0,0,0.3)
-    position: relative
+    @extend .line1
     top: 34px
 
 .contain-line1-1
     width: 14.5vw
     position: relative
     top: -4px
-    height: 2px
+    height: 0.3vh
     display: $f
     justify-content: center
 .contain-line2-2
-    width: 14.5vw
-    position: relative
+    @extend .contain-line1-1
     top: -6px
-    height: 2px
-    display: $f
-    justify-content: center
 
 
 .line1-1
@@ -94,6 +95,59 @@ form
     input[type="password"]
         font-size: 18px
         color: #C9C8C8
+
+.cmn-toggle
+    position:absolute
+    margin-left: -9999px
+    visibility: hidden
+
+.cmn-toggle + label
+    display:block
+    position:relative
+    cursor:pointer
+    outline: none
+    user-select:none
+
+input.cmn-toggle-round + label
+    padding:2px
+    width:60px
+    height:30px
+    background-color:#ddd
+    border-radius:30px
+
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after
+    display: block
+    position:absolute
+    top:1px
+    left:1px
+    bottom:1px
+    content: "" 
+
+input.cmn-toggle-round + label:before
+    right:1px
+    background-color:red
+    border-radius:30px
+    transition: background 0.4s
+
+input.cmn-toggle-round + label:after
+    width:30px
+    background-color:#fff 
+    border-radius:100%
+    box-shadow:0 2px 5px rgba(0,0,0,0.3)
+    transition: margin 0.4s
+
+input.cmn-toggle-round:checked + label:before
+    background-color:#8ce196
+
+input.cmn-toggle-round:checked + label:after
+    margin-left:30px
+
+.remember
+    position:relative
+    top:-35px
+    left:65px
+
 .inh1:hover ~ .email
     top: -64px
     color: blue
@@ -111,36 +165,30 @@ form
 
 @media (max-width: 700px)
 	#main-box	
-		width:70vw
-		height:46vh
+		width:65vw
+		height:55vh
 	
 	#form
-		margin-top:32%
+		margin-top:9vh
 		p
-			top:-65px
+			top:-8vh
 	.inh1:hover ~ .email
-    top: -75px
-    color: blue
+        color: blue
     
 	.inh2:hover ~ .password
-    top: -75px
-    color: blue
+        color: blue
 
 	.contain-line1-1
 		width:50vw
 
 	.line1
-		width: 50vw
-		top:37px
+	   width: 50vw
+
+    .contain-line2-2
+        width:50vw
 
 	.inh1:hover ~ .contain-line1-1 > .line1-1
-		width:50vw
-
-	.contain-line2-2
-		width:50vw
-
-	.line2
-		width:50vw
+        width:50vw
 
 	.inh2:hover ~ .contain-line2-2 > .line2-2
 		width:50vw
