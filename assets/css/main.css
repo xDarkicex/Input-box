@@ -170,8 +170,8 @@ input.cmn-toggle-round:checked + label:after {
 /* line 10, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
 #main-box {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.13), 1px 2px 4px 0 rgba(0, 0, 0, 0.08), 0 0 4px 0 rgba(0, 0, 0, 0.12);
-  height: 35vh;
-  width: 20vw;
+  height: 45%;
+  width: 30%;
   position: relative;
   top: 0;
   bottom: 0;
@@ -190,7 +190,7 @@ input.cmn-toggle-round:checked + label:after {
 
 /* line 30, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
 .line1, .line2 {
-  width: 14.5vw;
+  width: 80%;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.3);
   position: relative;
@@ -202,7 +202,7 @@ input.cmn-toggle-round:checked + label:after {
 
 /* line 41, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
 .contain-line1-1, .contain-line2-2 {
-  width: 14.5vw;
+  width: 80%;
   position: relative;
   top: -4px;
   height: 2px;
@@ -229,11 +229,11 @@ input.cmn-toggle-round:checked + label:after {
 
 /* line 64, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
 .inh1:hover ~ .contain-line1-1 > .line1-1, .inh1:hover ~ .contain-line2-2 > .line1-1 {
-  width: 14.5vw; }
+  width: 100%; }
 
 /* line 68, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
 .inh2:hover ~ .contain-line2-2 > .line2-2 {
-  width: 14.5vw; }
+  width: 100%; }
 
 /* line 74, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
 form p {
@@ -306,20 +306,20 @@ form input[type="password"] {
 
   /* line 129, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
   .contain-line1-1, .contain-line2-2 {
-    width: 50vw; }
+    width: 80%; }
 
   /* line 132, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
   .line1, .line2 {
-    width: 50vw; }
+    width: 80%; }
     /* line 135, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
     .line1 .contain-line2-2, .line2 .contain-line2-2 {
-      width: 50vw; }
+      width: 80%; }
 
   /* line 138, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
   .inh1:hover ~ .contain-line1-1 > .line1-1, .inh1:hover ~ .contain-line2-2 > .line1-1 {
-    width: 50vw; }
+    width: 100%; }
 
   /* line 141, C:/Users/Gentry/Documents/GitHub/Input-box/assets/sass/main.sass */
   .inh2:hover ~ .contain-line2-2 > .line2-2 {
-    width: 50vw; }
+    width: 100%; }
  }
