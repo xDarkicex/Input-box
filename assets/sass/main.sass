@@ -61,12 +61,13 @@
     background-color: blue
     transition: width .2s linear
 
-
 .inh1:hover ~ .contain-line1-1 > .line1-1
+    width:100%
+.inh1:focus ~ .contain-line1-1 > .line1-1
     width: 100%
 
 
-.inh2:hover ~ .contain-line2-2 > .line2-2
+.inh2:hover:focus ~ .contain-line2-2 > .line2-2
     width: 100%
 
 
@@ -97,14 +98,23 @@ form
         font-size: 18px
         color: #C9C8C8
 
+.inh1:focus ~ .email
+    top: -64px
+    color: blue
+
 .inh1:hover ~ .email
     top: -64px
     color: blue
+
+.inh2:focus ~ .password
+    top: -64px
+    color: blue
+
 .inh2:hover ~ .password
     top: -64px
     color: blue
 
-.smt-btn:hover
+.smt-btn:hover:focus
     background-color: #E20404
 
 .smt-btn
@@ -120,10 +130,16 @@ form
 	#form
 		margin-top:40%
 		p
-			top:-8vh
-	.inh1:hover ~ .email
+		  top:-8vh
+    .inh1:focus ~ .email
+        color: blue
+
+    .inh1:hover ~ .email
         color: blue
     
+    .inh2:focus ~ .password
+        color: blue    
+
 	.inh2:hover ~ .password
         color: blue
 
@@ -136,11 +152,17 @@ form
     .contain-line2-2
         width:80%
 
-	.inh1:hover ~ .contain-line1-1 > .line1-1
-        width:100%
+.inh1:focus ~ .contain-line1-1 > .line1-1
+    width:100%
 
-	.inh2:hover ~ .contain-line2-2 > .line2-2
-		width:100%
+.inh1:hover ~ .contain-line1-1 > .line1-1
+    width:100%
+
+.inh2:focus ~ .contain-line2-2 > .line2-2
+    width:100%
+
+.inh2:hover ~ .contain-line2-2 > .line2-2
+	width:100%
 
 
 	
