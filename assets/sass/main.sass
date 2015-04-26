@@ -13,18 +13,18 @@
     height: 45%
     width: 30%
     position:relative
-    top:0
-    bottom:0
+    top: 0
+    bottom: 0
     margin-top: auto
     margin-bottom: auto
-    left:0
-    right:0
-    margin-left:auto
+    left: 0
+    right: 0
+    margin-left: auto
     margin-right: auto
 
 #form
     width: 100%
-    padding-left:15%
+    padding-left: 15%
     margin-top: 15%
 
 
@@ -33,7 +33,7 @@
     height: 1px 
     background-color: rgba(0,0,0,0.3)
     position: relative
-    top:36px
+    top: 36px
 
 .line2
     @extend .line1
@@ -53,16 +53,16 @@
 
 .line1-1
     width: 0vw
-    background-color: blue
+    background-color: red
     transition: width .2s linear
 
 .line2-2
     width: 0vw
-    background-color: blue
+    background-color: red
     transition: width .2s linear
 
 .inh1:hover ~ .contain-line1-1 > .line1-1
-    width:100%
+    width: 100%
 .inh1:focus ~ .contain-line1-1 > .line1-1
     width: 100%
 
@@ -100,37 +100,37 @@ form
 
 .inh1:focus ~ .email
     top: -64px
-    color: blue
+    color: red
 
 .inh1:hover ~ .email
     top: -64px
-    color: blue
+    color: red
 
 .inh2:focus ~ .password
     top: -64px
-    color: blue
+    color: red
 
 .inh2:hover ~ .password
     top: -64px
-    color: blue
+    color: red
 
 .smt-btn:hover:focus
     background-color: #E20404
 
 .smt-btn
-    color:rgba(225,225,225,1)
+    color: rgba(225,225,225,1)
     background-color: red 
     box-shadow: $box
 
-@media (max-width: 600px)
+@media (max-width: 640px)
 	#main-box	
-		width:90%
-		height:90%
+		width: 90%
+		height: 90%
 	
 	#form
-		margin-top:40%
+		margin-top: 40%
 		p
-		  top:-8vh
+		  top: -8vh
     .inh1:focus ~ .email
         color: blue
 
@@ -144,25 +144,25 @@ form
         color: blue
 
 	.contain-line1-1
-		width:80%
+		width: 80%
 
 	.line1
 	   width: 80%
 
     .contain-line2-2
-        width:80%
+        width: 80%
 
 .inh1:focus ~ .contain-line1-1 > .line1-1
-    width:100%
+    width: 100%
 
 .inh1:hover ~ .contain-line1-1 > .line1-1
-    width:100%
+    width: 100%
 
 .inh2:focus ~ .contain-line2-2 > .line2-2
-    width:100%
+    width: 100%
 
 .inh2:hover ~ .contain-line2-2 > .line2-2
-		width:100%
+		width: 100%
 
 
 	
